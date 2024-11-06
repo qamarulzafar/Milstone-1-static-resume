@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+
+main{
+    min-width: 1000px;
+    height: auto;
+    padding: 10px;
+}
+
+.cont{
+    width: 70%;
+     height: auto;
+    background-color: rgb(222, 222, 223);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.side1{
+    width: 30%;
+    background-color: antiquewhite;
+    flex-direction: column;
+    padding: 1rem;
+    font-size: 0.9em;
+    gap: 10px;
+
+}
+
+.side1-cont{
+    width: 90%;
+    margin: auto;
+}
+
+.location{
+    display: flex;
+    gap: 5px;
+}
+.contact{
+    display: flex;
+    gap: 5px;
+
+}
+.E-mail{
+    display: flex;
+    gap: 5px;
+}
+
+.side2{
+    width: 70%;
+
+}
+
+.side1 .img{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 4px    ;
+    margin-top: 10px;
+    font-size: 1.15vw;
+}
+
+.side1 img{
+    max-width: 95%;
+    max-height: 95%;
+}
+
+.line{
+    width: 100%;
+    height: 0.8px;
+    background-color: black;
+    margin-top: 14px;
+    margin-bottom: 14px;
+
+}
+
+/* summery   */
+
+
+.summery .sum-head{
+    font-weight: bold;
+}
+
+.summery .sum-para{
+    font-size: 0.8rem;
+    margin-top: 5px;
+    
+}
+
+/* qualification  */
+
+
+.qualification .quali-head{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.qualification .quali-list{
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+.qualification .quali-list ul li {
+    list-style-position: inside;
+}
+/* languages  */
+
+
+.language .language-head{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.language .language-list{
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+.language .language-list ul li {
+    list-style-position: inside;
+}
+
+/* .side2  */
+
+
+.side2-cont{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+.profile-name{
+    font-size:1.9vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Experience  */
+
+.experience h3{
+    text-transform: uppercase;
+}
+
+.giaic{
+    margin-top: 40px;
+}
+
+.giaic .date {
+    font-size: 0.9rem;
+}
+
+.giaic .title {
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.giaic .summery ul {
+    list-style-position: inside;
+}
+
+.giaic .summery ul li{
+  margin-top: 5px;
+  color: rgb(60, 59, 59);
+  text-indent: -20px; 
+  padding-left: 20px; 
+}
+
+
+/* piaic  */
+
+
+.piaic{
+    margin-top: 40px;
+}
+
+.piaic .date {
+    font-size: 0.9rem;
+}
+
+.piaic .title {
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.piaic .summery ul {
+    list-style-position: inside;
+}
+
+.piaic .summery ul li{
+  margin-top: 5px;
+  color: rgb(60, 59, 59);
+  text-indent: -20px; 
+  padding-left: 20px; 
+}
+
+
+/* interest  */
+
+.interest {
+ margin-top: 30px;   
+ margin-bottom: 30px;
+}
+
+.interest h2{
+  text-transform: capitalize;
+}
+
+.interest-list{
+    margin-top: 30px;
+    color: rgb(60, 59, 59);
+}
+
+.interest-list  {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+}
+
+.skills {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.skill-list{
+    margin-top: 10px;
+}
+
+.skill-list ul{
+    list-style-position: inside;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type: circle;
+}
+
+/* button  */
+
+.btn{
+    width: 100%;
+}
+
+.button{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.button button {
+    padding: 10.5px;
+    font-size: 17px;
+    background: white;
+    cursor: pointer;
+}
